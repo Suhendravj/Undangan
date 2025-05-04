@@ -1,8 +1,11 @@
 .simply-countdown {
     overflow: hidden;
-    display: table;
     font-family: 'Arial', sans-serif;
     margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* biar rapi di mobile */
+    gap: 1rem; /* beri jarak antar blok waktu */
 
 }
 
@@ -30,3 +33,11 @@
 .simply-countdown>.simply-section .simply-amount {
     font-size: 1.6rem;
 }
+
+.simply-countdown {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* biar rapi di mobile */
+    gap: 1rem; /* beri jarak antar blok waktu */
+  }
+  

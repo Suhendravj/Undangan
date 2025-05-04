@@ -15,6 +15,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Work+Sans:wght@100;400;600;700&display=swap"
         rel="stylesheet">
+    
 
     <!-- SimpliCountdown -->
     <link rel="stylesheet" href="Countdown/simplyCountdown.theme.default.css" />
@@ -30,9 +31,7 @@
 </head>
 
 <body>
-
-    <section id="hero"
-        class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white">
+    <section id="hero" class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white">
         <main>
             <h4>Kepada Bapak/Ibu/Saudara/i,</h4>
             <h1>Suhendra & Merry Monica</h1>
@@ -42,9 +41,9 @@
         </main>
     </section>
 
-    <nav class="navbar navbar-expand-md bg-transparent stiky-top mynavbar">
+    <nav class="navbar navbar-expand-md bg-transparent sticky-top mynavbar">
         <div class="container">
-            <a class="navbar-brand" href="https://instagram.com/suhendravj_?igshid=YmMyMTA2M2Y">SvJ</a>
+            <a class="navbar-brand" href="#">SvJ</a>
             <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas"
                 data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -64,7 +63,6 @@
                         <a class="nav-link" href="#rsvp">RSVP</a>
                         <a class="nav-link" href="#gift">Gifts</a>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -77,8 +75,8 @@
                 <div class="col-md-8 text-center">
                     <h2>Acara Pernikahan</h2>
                     <h3>Diselenggarakan pada 23 Oktober 2027 di Medan. Sumatra Utara </h3>
-                    <p>Oleh karena itu,dengan segala hormat, kami bermkasud untuk mengundang Bapak/Ibu,Saudara/i,untuk
-                        hadir
+                    <p>Oleh karena itu, dengan segala hormat, kami bermkasud untuk mengundang Bapak/Ibu,
+                    Saudara/i,untuk hadir
                         pada acara pernikahan kami.
                     </p>
                 </div>
@@ -95,7 +93,7 @@
                             <p>Putra dari Bpk.Lorem <br> & <br> Ibu Ipsum</p>
                         </div>
                         <div class="col-4">
-                            <img src="img/abang.jpg" alt="suhendra" class="img-responsive rounded-circle">
+                            <img src="img/abang.jpg" alt="suhendra" class="img-fluid rounded-circle">
                         </div>
                     </div>
                 </div>
@@ -106,7 +104,7 @@
                 <div class="col-lg-6">
                     <div class="row">
                         <div class="col-4">
-                            <img src="img/bocil.jpg" alt="suhendra" class="img-responsive rounded-circle">
+                            <img src="img/bocil.jpg" alt="suhendra" class="img-fluid rounded-circle">
                         </div>
                         <div class="col-8">
                             <h3>Merry Monica</h3>
@@ -218,16 +216,16 @@
 
 
     <script>
-        const stikytop = document.querySelector('.stiky-top');
+        const stickytop = document.querySelector('.sticky-top');
         const offcanvas = document.querySelector('.offcanvas');
 
 
         offcanvas.addEventListener('show.bs.offcanvas', function () {
-            stikyTop.style.overflow = 'visible'
+            stickyTop.style.overflow = 'visible'
         });
 
         offcanvas.addEventListener('hidden.bs.offcanvas', function () {
-            stikyTop.style.overflow = 'hidden';
+            stickyTop.style.overflow = 'hidden';
         });
 
 
